@@ -1,5 +1,26 @@
 body, th,thead, td {
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Verdana", Verdana, sans-serif;
+}
+
+/* Hide default search box */
+.dataTables_filter {
+   float: left !important;
+   display: None;
+}
+
+.lengthy {
+    max-width : 150px; 
+    white-space : nowrap;
+    overflow : hidden;
+    /*padding-right:100px; */
+}
+
+.lengthy:hover {
+    max-width : initial;
+}
+
+#mysearch {
+    width : 350px;
 }
 
