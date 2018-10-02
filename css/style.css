@@ -1,5 +1,5 @@
 body, th,thead, td {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "Verdana", Verdana, sans-serif;
 }
 
@@ -24,3 +24,4 @@ body, th,thead, td {
     width : 350px;
 }
 
+div.container { max-width: 1200px }
