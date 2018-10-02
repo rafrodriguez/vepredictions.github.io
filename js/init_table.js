@@ -1,6 +1,5 @@
 $(document).ready(function() {
     var table = $('#table1').DataTable( {
-        "scrollY":        "600px",
         "scrollCollapse": true,
         "paging":         false,
         "columnDefs": [                    
